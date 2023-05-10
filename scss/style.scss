@@ -1,0 +1,26 @@
+@import 'header';
+@import 'reset';
+@import 'titulo-index'
+
+
+
+@media screen and (max-width:860px) {
+    .conteiner-tittle {
+        padding-bottom: 0;
+    }
+
+    .tittle-box-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .tittle-catalogo {
+        display: none;
+    }
+
+    .tittle {
+        font-size: 2rem;
+    }
+}

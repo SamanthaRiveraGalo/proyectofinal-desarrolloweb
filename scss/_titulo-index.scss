@@ -1,0 +1,36 @@
+.conteiner-tittle {
+    background-color: #fefefe;
+    padding: 0.5rem 0;
+
+    .tittle-box-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1rem 2rem;
+        padding: 1rem 0;
+
+        .tittle {
+            font-size: 35px;
+            padding-left: 1rem;
+        }
+
+        p {
+            .tittle-catalogo {
+                font-size: 18px;
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    border-bottom: 1px solid #252525;
+                }
+
+                .catalogo-span {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: black;
+                    padding-right: 1rem;
+                }
+            }
+        }
+    }
+}

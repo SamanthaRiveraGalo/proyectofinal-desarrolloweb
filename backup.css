@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    margin: 0;
+}
+
+/*Zona navegable*/
+
+.navbar-brand {
+    width: 10rem;
+    margin-right: 10rem;
+}
+
+.navbar-brand {
+    max-height: 2rem;
+    max-width: 8rem;
+    padding: 0
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.search-box {
+    height: 2.1rem;
+}
+
+.box-button {
+    display: flex;
+    align-items: center;
+}
+
+.box-input:hover {
+    border-color: black;
+}
+
+.shopping-cart {
+    height: 2rem;
+    width: 2rem;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav {
+    font-size: 1.2rem;
+    gap: 1.1rem;
+}
+
+.form-control:hover {
+    box-shadow: none;
+}
+
+/* Carousel */
+
+.carousel-inner {
+    max-height: 33.5rem;
+}
+
+.img-fluid {
+    max-height: 33rem;
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    justify-content: start;
+}
+
+.carousel-control-next {
+    justify-content: end;
+}
+
+/* titulo*/
+.conteiner-tittle {
+    background-color: #fefefe;
+    padding: 0.5rem 0;
+}
+
+.tittle-box-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    padding: 1rem 0;
+}
+
+.tittle {
+    font-size: 35px;
+    padding-left: 1rem;
+}
+
+.tittle-catalogo {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.tittle-catalogo:hover {
+    border-bottom: 1px solid #252525;
+    /*poner luego bien la transicion*/
+}
+
+.catalogo-span {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding-right: 1rem;
+}
+
+.tittle-catalogo-mobile {
+    display: none;
+}
+
+@media screen and (max-width:860px) {
+    .conteiner-tittle {
+        padding-bottom: 0;
+    }
+
+    .tittle-box-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .tittle-catalogo {
+        display: none;
+    }
+
+    .tittle {
+        font-size: 2rem;
+    }
+}
+
+/*Productos index*/
+
+.products {
+    background-color: #F5F5F5;
+}
+
+figure {
+    max-height: 15.4rem;
+    max-width: 15rem;
+}
+
+.productimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#row-index {
+    padding: 1rem 1rem 2rem 1rem;
+    gap: 1.5rem;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+#products-card {
+    border-radius: 0.6rem;
+    width: 19rem;
+    padding: 0.6rem 0;
+    background-color: #FFFDF9;
+    box-shadow: 1px 1px 4px 2px #D8D8D8;
+    transition: all 400ms ease;
+    display: grid;
+    justify-content: center;
+}
+
+#products-card:hover {
+    box-shadow: 4px 4px 5px 4px #aaadaf;
+    transform: translateY(-3px);
+}
+
+.box-img-product {
+    margin: 0;
+}
+
+.price {
+    display: flex;
+    padding: 0.28rem 0;
+    font-size: 1.563rem;
+}
+
+.name {
+    display: flex;
+    padding: 0;
+    font-size: 1.563rem;
+}
+
+.memory {
+    display: flex;
+    padding: 0.3rem 0;
+    font-size: 1.3rem;
+}
+
+.circule-y,
+.circule-b,
+.circule-p,
+.circule-g,
+.circule-c,
+.circule-grey,
+.circule-blue,
+.circule-s,
+.circule-sb,
+.circule-w,
+.circule-peach {
+    padding: 0.8rem;
+    margin: 0 0.2rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
+}
+
+.circule-peach {
+    background-color: #FFD3B0;
+}
+
+.circule-w {
+    background-color: #fff;
+}
+
+.circule-sb {
+    background-color: #ECF2FF;
+}
+
+.circule-s {
+    background-color: #EEEEEE;
+}
+
+.circule-blue {
+    background-color: #394867;
+}
+
+.circule-grey {
+    background-color: #434242;
+}
+
+.circule-c {
+    background-color: #F8EAD8;
+}
+
+.circule-g {
+    background-color: #3C6255;
+}
+
+.circule-p {
+    background-color: #FEC8D8;
+}
+
+.circule-b {
+    background-color: #252525;
+}
+
+.circule-y {
+    background-color: #F5EA5A;
+}
+
+.conteiner-button {
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.buy {
+    padding: 0.6rem 0.9rem;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+
+}
+
+.buy:hover {
+    background-color: black;
+    color: white;
+}
+
+/*footer*/
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0;
+    width: 100%;
+    background-color: #F5F5F5;
+    box-shadow: 0 -2px 3px 2px #aaadaf;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-img {
+    width: 10rem;
+}
+
+.social-networks {
+    display: flex;
+    align-items: center;
+}
+
+.instagram {
+    height: 2.1rem;
+    width: 3.4rem;
+    padding-left: 1.25rem;
+}
+
+.fa-facebook {
+    font-size: 2.1rem;
+    color: #3b5998;
+    padding-left: 30px;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.25rem;
+}
+
+.phone-number {
+    padding-right: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.25rem;
+}
+
+.fa-location-dot {
+
+    font-size: 1.25rem;
+}
+
+.fa-phone {
+
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width:860px) {
+    #footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-row-gap: 1rem;
+        justify-items: center;
+    }
+
+    .footer-logo {
+        grid-area: 1 / 1 / 2 / 2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-networks {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .location-info {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .phone-number {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+}
+
+/* PAGE xiaomi-motorola-samsung*/
+.conteiner-banner-products {
+    width: 100%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner-tittles {
+    background-color: #f5f5f5;
+}
+
+.tittles-section {
+    font-size: 1.5rem;
+    padding: 1.5rem 0 1rem 2rem;
+    display: flex;
+    gap: 1.25rem;
+    background-color: #F5F5F5;
+    margin: 0 0 0 3.5rem;
+    color: #D2001A;
+}
+
+.second-tittle {
+    background-color: #F5F5F5;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 2rem;
+    margin: 0 0 0 3.5rem;
+}
+
+/*Filtro*/
+
+aside {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: #F5F5F5;
+    padding-right: 0;
+    margin-left: 3rem;
+}
+
+.filler {
+    font-size: 1.4rem;
+    color: grey;
+}
+
+h3 {
+    padding-left: 2.5rem;
+}
+
+.phone-brand {
+    display: grid;
+    padding: 0.5rem 0 1rem 2.5rem;
+}
+
+.marcas {
+    padding: 1rem 0;
+}
+
+.conteiner-checkbox {
+    padding: 0.3rem 0;
+}
+
+.conteiner-price-filler {
+    padding: 0.5rem 0 1rem 2.5rem;
+}
+
+.price-filler-tittle {
+    padding: 1rem 0;
+}
+
+.box-filler-price {
+    padding: 0.5rem 0;
+}
+
+.price-filler {
+    text-decoration: none;
+    color: black;
+}
+
+.conteiner-memory-ram {
+    display: grid;
+}
+
+.memory-ram {
+    justify-content: left;
+    padding: 0.5rem 0 1rem 2.5rem;
+}
+
+.ram {
+    padding: 0.3rem 0 0.3rem 2.5rem;
+}
+
+.conteiner-internal-memory {
+    display: grid;
+}
+
+.internal-memory {
+    justify-content: left;
+    padding: 0.5rem 0 1rem 2.5rem;
+}
+
+.memoria-interna {
+    padding: 0.3rem 0 0.3rem 2.5rem;
+}
+
+.filler-mobile {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .tittles-section {
+        padding-left: 1rem;
+        margin: 0;
+    }
+
+    .second-tittle {
+        padding-left: 1rem;
+        margin: 0;
+    }
+
+    .col-2 {
+        display: none;
+    }
+
+    .filler-mobile {
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .filler-tittle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        width: 55%;
+        font-size: 20px;
+        border-radius: 0;
+        border: none;
+        box-shadow: 1px 1px 4px 2px #F3E8FF;
+    }
+
+
+    #filler-drop {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .col-10 {
+        width: 100%;
+    }
+
+    #principal-content {
+        padding: 0;
+    }
+}
+
+/*Seccion de productos xiaomi-motorola-samsung*/
+
+#principal-content {
+    background-color: #f5f5f5;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+}
+
+.conteiner-tittle {
+    background-color: #F5F5F5;
+}
+
+#all-products {
+    padding: 0;
+    gap: 0;
+    margin: 0;
+}
+
+.col-2 {
+    padding: 0;
+    margin: 0;
+}
+
+.col-10 {
+    padding: 0;
+}
+
+#products {
+    padding: 0 1.5rem 0rem 2rem;
+    gap: 1rem;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.page-link {
+    color: #D2001A;
+}
+
+.page-link:hover {
+    background-color: #D2001A;
+    color: white;
+}
+
+/*Productos individuales xiaomi-moto-samg*/
+#principal-content {
+    margin: auto;
+    padding: 0;
+}
+
+.tittles-section {
+    font-size: 1.8rem;
+}
+
+.tittles-section a {
+    color: #D2001A;
+    text-decoration: none;
+}
+
+.one {
+    background-color: #F5F5F5;
+    padding: 3rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 1.8rem;
+}
+
+.card-ram {
+    font-size: 1.56rem;
+}
+
+.card-price {
+    font-size: 1.8rem;
+    color: #D2001A;
+}
+
+.card-method {
+    font-size: 1.25rem;
+}
+
+.card-retiro {
+    font-size: 1.25rem;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.specification {
+    background-color: #F5F5F5;
+    width: 100%;
+}
+
+.specification-row {
+    width: 100%;
+    margin: 0;
+}
+
+.specification-name {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    font-size: 1.56rem;
+}
+
+.specification-tittle {
+    border: 1px solid grey;
+    border-radius: 0.6rem;
+    padding: 1rem 2rem;
+    background-color: white;
+}
+
+.conteiner-similar {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 0;
+}
+
+.similar {
+    display: flex;
+    justify-content: center;
+    font-size: 1.56rem;
+    padding-top: 3rem;
+}
+
+.similar-span {
+    border-bottom: 2px solid #aaadaf;
+}
+
+.conteiner-product-similar {
+    padding: 4rem 1.5rem;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0;
+    width: 100%;
+}
+
+#similar-products {
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.6rem;
+    box-shadow: 1px 1px 4px 2px #aaadaf;
+    transition: all 400ms ease;
+}
+
+.name-similar {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*Contacto*/
+
+.contact-body {
+    background-color: #f5f5f5;
+    color: #fff;
+    padding: 1rem 1.5rem;
+}
+
+.conteiner-form {
+    max-width: 73rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+}
+
+.contact-logo {
+    text-align: center;
+    font-size: 3rem;
+    color: Black;
+    padding: 1rem 0 2rem 0;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 #181818;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact-wrapper>* {
+    padding-left: 1rem;
+}
+
+.contact-form {
+    background-color: #222222;
+    padding: 1rem;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1rem;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background-image: radial-gradient(circle at 120.71% 50%, #ff9300 0, #ff7f1e 12.5%, #ff6a2d 25%, #ff5437 37.5%, #f23c3c 50%, #dc223f 62.5%, #c80042 75%, #b60045 87.5%, #a60049 100%);
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-info {
+    background: #000;
+    padding: 1rem 0;
+}
+.contact-info h3{
+    font-size: 25px;
+}
+.contact-info p,
+.contact-info ul li{
+    font-size: 20px;
+}
+
+.contact-info h3,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-info ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.fa-phone,
+.fa-location-dot {
+    padding: 0 0.6rem;
+}
+
+@media screen and (max-width:725px) {
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:( 1fr, 20rem);
+    }
+    .contact-form{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .contact-info{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*Page Novedades*/
+
+
+.novedades-tittle {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 3rem 0;
+}
+
+.novedades-span {
+    border: 1px solid white;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.new-title {
+    width: 100%;
+}
+
+.conteiner-new {
+    background-color: #f5f5f5;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.lorem {
+    line-height: 23px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.new-tittle {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.new {
+    width: 45rem;
+    color: #1f1f1f;
+    display: flex;
+    background: #111;
+    margin: 2rem 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.new-text {
+    padding: 1.5rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.new-image {
+    width: 50%;
+    height: 17rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.new-image::before {
+    content: '';
+    position: absolute;
+    left: -6.1rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(20deg);
+    width: 40%;
+    background: #111;
+    height: 140%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.new-left .new-image::before {
+    transform: translateY(-50%) rotate(-20deg);
+    left: initial;
+    right: -6.1rem;
+}
+
+.new-img {
+    width: 140%;
+}
+
+@media screen and (max-width:750px) {
+    .new {
+        display: block;
+        width: 20rem;
+    }
+
+    .new-image,
+    .new-text {
+        width: 100%;
+    }
+
+    .new-img {
+        width: 160%;
+    }
+
+    .new .new-image::before {
+        width: 120%;
+        height: 40%;
+        top: -5rem;
+        left: 50%;
+        transform: translateX(-50%) rotate(10deg);
+    }
+
+    .new-left .new-image::before {
+        transform: translateX(-50%) rotate(-10%);
+        top: initial;
+        bottom: -5rem;
+    }
+
+}
