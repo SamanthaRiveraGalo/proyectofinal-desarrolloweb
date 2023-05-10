@@ -1,0 +1,100 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0;
+    width: 100%;
+    background-color: #F5F5F5;
+    box-shadow: 0 -2px 3px 2px #aaadaf;
+
+    .social-networks {
+        display: flex;
+        align-items: center;
+
+        .instagram {
+            height: 2.1rem;
+            width: 3.4rem;
+            padding-left: 1.25rem;
+        }
+
+        .fa-facebook {
+            font-size: 2.1rem;
+            color: #3b5998;
+            padding-left: 30px;
+        }
+
+    }
+
+    .footer-logo {
+        display: flex;
+
+        .footer-img {
+            width: 10rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .location-info {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        font-size: 1.25rem;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .phone-number {
+        padding-right: 0.9rem;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        font-size: 1.25rem;
+
+        .fa-location-dot {
+
+            font-size: 1.25rem;
+        }
+
+        .fa-phone {
+
+            font-size: 1.25rem;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width:860px) {
+        #footer {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            grid-row-gap: 1rem;
+            justify-items: center;
+        }
+
+        .footer-logo {
+            grid-area: 1 / 1 / 2 / 2;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-networks {
+            grid-area: 2 / 1 / 3 / 2;
+        }
+
+        .location-info {
+            grid-area: 4 / 1 / 5 / 2;
+        }
+
+        .phone-number {
+            grid-area: 3 / 1 / 4 / 2;
+        }
+    }
+}

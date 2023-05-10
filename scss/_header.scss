@@ -1,37 +1,35 @@
 header {
-    nav {
-        .conteiner-fluid {
-            .navbar-brand {
-                width: 10rem;
-                .logo {
-                    width: 100%;
-                }
-            }
 
-            .navbar-collapse {
-                .navbar-nav {
-                    font-size: 1.2rem;
-                    gap: 1.1rem;
+    .navbar-brand {
+        width: 10rem;
 
-                    li {
-                        .nav-link {
-                            color: black;
-                        }
-                    }
-                }
+        .logo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+    }
 
-                form {
-                    .form-control:hover {
-                        box-shadow: none;
-                    }
-                }
-            }
 
-            .shoppingcar {
-                height: 2rem;
-                width: 2rem;
+    .navbar-nav {
+        font-size: 1.2rem;
+        gap: 1.1rem;
+
+        li {
+            .nav-link {
+                color: black;
             }
         }
+    }
 
+    form {
+        .form-control:hover {
+            box-shadow: none;
+        }
+    }
+    .shoppingcar {
+        height: 2rem;
+        width: 2rem;
     }
 }
+

@@ -1,5 +1,5 @@
 .conteiner-tittle {
-    background-color: #fefefe;
+    background-color: #f5f5f5;
     padding: 0.5rem 0;
 
     .tittle-box-info {
@@ -31,6 +31,26 @@
                     padding-right: 1rem;
                 }
             }
+        }
+    }
+    @media screen and (max-width:860px) {
+        .conteiner-tittle {
+            padding-bottom: 0;
+        }
+    
+        .tittle-box-info {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding-bottom: 0;
+        }
+    
+        .tittle-catalogo {
+            display: none;
+        }
+    
+        .tittle {
+            font-size: 2rem;
         }
     }
 }
