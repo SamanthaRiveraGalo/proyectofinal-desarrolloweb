@@ -1,0 +1,138 @@
+@import '../base/extends';
+
+.products {
+    background-color: #F5F5F5;
+    width: 100%;
+    overflow: auto;
+
+    #row-index {
+        padding: 1rem 1rem 2rem 1rem;
+        gap: 1.5rem;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+
+        #products-card {
+            border-radius: 0.6rem;
+            width: 19rem;
+            padding: 0.6rem 0;
+            background-color: #FFFDF9;
+            box-shadow: 1px 1px 4px 2px #D8D8D8;
+            transition: all 400ms ease;
+            display: grid;
+            justify-content: center;
+
+            &:hover {
+                box-shadow: 4px 4px 5px 4px #aaadaf;
+                transform: translateY(-3px);
+            }
+
+            .box-img-product {
+                margin: 0;
+                width: 15rem;
+                max-height: 15.4rem;
+                max-width: 15rem;
+
+                .productimg {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+            }
+
+            .name {
+                display: flex;
+                padding: 0;
+                font-size: 1.563rem;
+            }
+
+            .memory {
+                display: flex;
+                padding: 0.3rem 0;
+                font-size: 1.3rem;
+            }
+
+            .price {
+                display: flex;
+                padding: 0.28rem 0;
+                font-size: 1.563rem;
+            }
+            .circule-b {
+                @extend %button-products;
+                background-color: #252525;
+            }
+            .circule-p {
+                @extend %button-products;
+                background-color: #FEC8D8;
+            }
+
+            .circule-y {
+                @extend %button-products;
+                background-color: #F5EA5A;
+            }
+
+            .circule-g {
+                @extend %button-products;
+                background-color: #3C6255;
+            }
+
+            .circule-c {
+                @extend %button-products;
+                background-color: #F8EAD8;
+            }
+
+            .circule-grey {
+                @extend %button-products;
+                background-color: #434242;
+            }
+
+            .circule-blue {
+                @extend %button-products;
+                background-color: #394867;
+            }
+
+            .circule-s {
+                @extend %button-products;
+                background-color: #EEEEEE;
+            }
+
+            .circule-sb {
+                @extend %button-products;
+                background-color: #ECF2FF;
+            }
+
+            .circule-w {
+                @extend %button-products;
+                background-color: #fff;
+            }
+
+            .circule-peach {
+                @extend %button-products;
+                background-color: #FFD3B0;
+            }
+
+            .conteiner-button {
+                padding: 0.6rem 0;
+                display: flex;
+                justify-content: center;
+
+                .buy {
+                    padding: 0.6rem 0.9rem;
+                    border: 1px solid black;
+                    border-radius: 0.6rem;
+                    color: black;
+                    font-size: 1rem;
+                    background-color: white;
+
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
