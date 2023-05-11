@@ -1,5 +1,6 @@
 header {
 
+
     .navbar-brand {
         width: 10rem;
 
@@ -27,9 +28,17 @@ header {
             box-shadow: none;
         }
     }
+
     .shoppingcar {
         height: 2rem;
         width: 2rem;
-    }
-}
+        display: flex;
+        align-items: center;
+        padding-left: 0.5rem;
 
+        .fa-cart-shopping {
+            font-size: 20px;
+        }
+    }
+
+}

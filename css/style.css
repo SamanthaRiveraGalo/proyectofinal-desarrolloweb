@@ -19,6 +19,12 @@ header form .form-control:hover {
 header .shoppingcar {
   height: 2rem;
   width: 2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+header .shoppingcar .fa-cart-shopping {
+  font-size: 20px;
 }
 
 * {
@@ -993,6 +999,7 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
   display: flex;
   justify-content: center;
 }
+
 .products #row-index #products-card .circule-b, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-b, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-peach {
   padding: 0.8rem;
   margin: 0 0.2rem;
