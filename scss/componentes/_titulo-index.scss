@@ -13,7 +13,7 @@
 
         .tittle {
             font-size: 35px;
-            padding-left: 1rem;
+            padding: 1rem;
         }
 
         p {
@@ -23,18 +23,15 @@
                 color: black;
 
                 &:hover {
-                    border-bottom: 1px solid #252525;
-                }
-
-                .catalogo-span {
-                    font-size: 18px;
-                    font-weight: bold;
-                    color: black;
-                    padding-right: 1rem;
+                    border-radius: 20px;
+                    background-color: #181818;
+                    color: #fff;
+                    padding: 0.8rem;
                 }
             }
         }
     }
+    
     @media screen and (max-width:860px) {
         .conteiner-tittle {
             padding-bottom: 0;
