@@ -26,14 +26,16 @@
     <script src="https://kit.fontawesome.com/3f6286b612.js" crossorigin="anonymous"></script>
     <!--Css-->
     <link rel="stylesheet" href="css/style.css">
+    <!--Animacion-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-light">
+        <nav class="navbar navbar-expand-lg" style="background-color: #181818;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="logo" src="img/CellShoplogo.png"
+                <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo-cellshop.png"
                         alt="logo de cellshop"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -67,8 +69,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                        <input class="form-control me-2 btn-outline-dark" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light"type="submit">Buscar</button>
                     </form>
                 </div>
                 <div class="shoppingcar">
@@ -124,7 +126,7 @@
 
     <section class="conteiner products">
         <div id="row-index" class="row">
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <a href="pages/xiaomi-x5pro.html"><img class="productimg" src="img/Xiaomix5pro.png"
                             alt="Xiaomi X5 Pro 12GB/256GB"></a>
@@ -141,7 +143,7 @@
                 </div>
             </div>
 
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <img class="productimg" src="img/motorolag-30.jpg" alt="Motorola G30 4GB/128GB">
                 </figure>
@@ -157,7 +159,7 @@
                 </div>
             </div>
 
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <img class="productimg" src="img/samsungs23ultra.png" alt="Samsung S23 ultra 12GB/256GB">
                 </figure>
@@ -176,7 +178,7 @@
                 </div>
             </div>
 
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <img class="productimg" src="img/motorola30fusion.jpg" alt="Motorola Edge 30 Fusion 8GB/128GB">
                 </figure>
@@ -193,7 +195,7 @@
                 </div>
             </div>
 
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <img class="productimg" src="img/xiaominote118128.png" alt="Xiaomi Note 11S 8GB/128GB">
                 </figure>
@@ -210,7 +212,7 @@
                 </div>
             </div>
 
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <img class="productimg" src="img/samsunga23.jpg" alt="Samsung A23 4GB/128GB">
                 </figure>
@@ -227,7 +229,7 @@
                 </div>
             </div>
 
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <img class="productimg" src="img/xiaominote11pro.jpg" alt="Xiaomi Note 11Pro 6GB/128GB">
                 </figure>
@@ -244,7 +246,7 @@
                 </div>
             </div>
 
-            <div id="products-card" class="col-3">
+            <div id="products-card" class="col-3" data-aos="zoom-in">
                 <figure class="box-img-product">
                     <img class="productimg" src="img/xiaominote10pro.png" alt="Xiaomi Note 10Pro 8GB/256GB">
                 </figure>
@@ -268,8 +270,7 @@
 
     <footer id="footer" class="conteiner">
         <div class="social-networks">
-            <a class="logo-insta" href="https://www.instagram.com/cellshop.tucuman/" target="_blank"><img
-                    class="instagram" src="img/instagram.png" alt="logo instagram">
+            <a class="logo-insta" href="https://www.instagram.com/cellshop.tucuman/" target="_blank"><i class="fa-brands fa-instagram"></i>
             </a>
             <a class="logo-face" href="https://www.facebook.com/tucel.celulareslibres?mibextid=ZbWKwL" target="_blank">
                 <i class="fa-brands fa-facebook"></i></i>
@@ -277,7 +278,7 @@
         </div>
 
         <div class="footer-logo">
-            <a href="#" class="footer-img"><img class="logo" src="img/CellShoplogo.png" alt="logo de cellshop"></a>
+            <a href="#" class="footer-img"><img class="logo" src="img/logo-cellshop.png" alt="logo de cellshop"></a>
         </div>
 
         <div class="location-info">
@@ -291,6 +292,11 @@
         </div>
     </footer>
 
+    <!--animacion-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!--boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

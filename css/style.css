@@ -10,21 +10,23 @@ header .navbar-nav {
   font-size: 1.2rem;
   gap: 1.1rem;
 }
-header .navbar-nav li .nav-link {
-  color: black;
+header .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+header form {
+  padding-right: 1rem;
 }
 header form .form-control:hover {
   box-shadow: none;
 }
 header .shoppingcar {
-  height: 2rem;
-  width: 2rem;
   display: flex;
   align-items: center;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 header .shoppingcar .fa-cart-shopping {
-  font-size: 20px;
+  font-size: 22px;
+  color: #fff;
 }
 
 * {
@@ -197,13 +199,13 @@ main #all-products .col-10 #products #products-card .circule-peach:hover, main #
 }
 
 #footer {
+  background-color: #181818;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 3rem 0;
   width: 100%;
-  background-color: #F5F5F5;
-  box-shadow: 0 -2px 3px 2px #aaadaf;
+  box-shadow: 0 0 20px 0 rgba(225, 225, 225, 0.3);
 }
 @media screen and (max-width: 860px) {
   #footer {
@@ -218,14 +220,14 @@ main #all-products .col-10 #products #products-card .circule-peach:hover, main #
   display: flex;
   align-items: center;
 }
-#footer .social-networks .instagram {
-  height: 2.1rem;
-  width: 3.4rem;
-  padding-left: 1.25rem;
+#footer .social-networks .fa-instagram {
+  font-size: 2.1rem;
+  color: #fff;
+  padding-left: 30px;
 }
 #footer .social-networks .fa-facebook {
   font-size: 2.1rem;
-  color: #3b5998;
+  color: #fff;
   padding-left: 30px;
 }
 @media screen and (max-width: 860px) {
@@ -255,8 +257,13 @@ main #all-products .col-10 #products #products-card .circule-peach:hover, main #
   gap: 0.8rem;
   font-size: 1.25rem;
 }
+#footer .location-info .fa-location-dot {
+  font-size: 1.25rem;
+  color: #fff;
+}
 #footer .location-info p {
   margin: 0;
+  color: #fff;
 }
 @media screen and (max-width: 860px) {
   #footer .location-info {
@@ -270,14 +277,13 @@ main #all-products .col-10 #products #products-card .circule-peach:hover, main #
   gap: 0.8rem;
   font-size: 1.25rem;
 }
-#footer .phone-number .fa-location-dot {
-  font-size: 1.25rem;
-}
 #footer .phone-number .fa-phone {
   font-size: 1.25rem;
+  color: #fff;
 }
 #footer .phone-number p {
   margin: 0;
+  color: #fff;
 }
 @media screen and (max-width: 860px) {
   #footer .phone-number {
@@ -614,7 +620,7 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
 }
 
 .contact-body {
-  background-color: #f5f5f5;
+  background-color: #383838;
   color: #fff;
   padding: 0 1.5rem;
 }
@@ -622,18 +628,16 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
   max-width: 73rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5rem;
-}
-.contact-body .conteiner-form .contact-logo {
-  text-align: center;
-  font-size: 3rem;
-  color: Black;
-  padding: 1rem 0 2rem 0;
+  padding: 3rem 1.5rem;
 }
 .contact-body .conteiner-form .contact-wrapper {
-  box-shadow: 0 0 20px 0 #181818;
+  box-shadow: 0 0 20px 0 rgba(225, 225, 225, 0.3);
   display: grid;
   grid-template-columns: 2fr 1fr;
+  transition: all 400ms ease;
+}
+.contact-body .conteiner-form .contact-wrapper:hover {
+  transform: translatey(-5px);
 }
 @media screen and (max-width: 725px) {
   .contact-body .conteiner-form .contact-wrapper {
@@ -747,7 +751,7 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
 }
 
 .conteiner-new {
-  background-color: #f5f5f5;
+  background-color: #383838;
   display: flex;
   min-height: 100vh;
   justify-content: center;
@@ -761,13 +765,13 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
 .conteiner-new .new-title .novedades-tittle {
   display: flex;
   justify-content: center;
-  padding: 2rem 0 3rem 0;
+  padding: 2.5rem 0 3rem 0;
 }
 .conteiner-new .new-title .novedades-tittle .novedades-span {
-  border: 1px solid white;
-  background-color: white;
+  border: 1px solid #fff;
   padding: 1rem 2rem;
-  border-radius: 10px;
+  color: #fff;
+  border-radius: 5px;
 }
 .conteiner-new .new {
   width: 45rem;
@@ -775,7 +779,9 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
   display: flex;
   background: #111;
   margin: 2rem 0;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px 0 rgba(225, 225, 225, 0.3);
+  position: relative;
+  translate: -8rem;
 }
 .conteiner-new .new .new-text {
   padding: 1.5rem;
@@ -812,10 +818,14 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
   width: 40%;
   background: #111;
   height: 140%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px 0 rgba(225, 225, 225, 0.3);
 }
 .conteiner-new .new .new-image .new-img {
   width: 140%;
+}
+.conteiner-new .new-left {
+  position: relative;
+  translate: 8rem;
 }
 .conteiner-new .new-left .new-image {
   width: 50%;

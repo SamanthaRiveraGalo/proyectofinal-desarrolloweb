@@ -26,6 +26,9 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="../css/style.css">
+     <!--Animacion-->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -33,9 +36,9 @@
     <!--Menu-->
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-light">
+        <nav class="navbar navbar-expand-lg"  style="background-color: #181818;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/CellShoplogo.png"
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo-cellshop.png"
                         alt="logo de cellshop"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -70,7 +73,7 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                        <button class="btn  btn-outline-light" type="submit">Buscar</button>
                     </form>
                 </div>
                 <div class="shoppingcar">
@@ -198,7 +201,7 @@
 
             <div class="col-10">
                 <div class="row" id="products">
-                    <div id="products-card" class="col-3">
+                    <div id="products-card" class="col-3"  data-aos="fade-up">
                         <figure>
                             <a href="xiaomi-x5pro.html"><img class="productimg" src="../img/Xiaomix5pro.png"
                                     alt="Xiaomi X5 Pro 12GB/256GB"></a>
@@ -215,7 +218,7 @@
                         </div>
                     </div>
 
-                    <div id="products-card" class="col-3">
+                    <div id="products-card" class="col-3"  data-aos="fade-up">
                         <figure>
                             <img class="productimg" src="../img/xiaomi12pro.png" alt="Xiaomi 12 pro">
                         </figure>
@@ -232,7 +235,7 @@
                             <button class="buy">Comprar</button>
                         </div>
                     </div>
-                    <div id="products-card" class="col-3 ">
+                    <div id="products-card" class="col-3 "  data-aos="fade-up">
                         <figure>
                             <a href=""><img class="productimg" src="../img/xiaominote11pro.jpg" alt="Xiaomi 11pro"></a>
                         </figure>
@@ -249,7 +252,7 @@
                         </div>
                     </div>
 
-                    <div id="products-card" class="col-3 ">
+                    <div id="products-card" class="col-3 " data-aos="fade-up">
                         <figure>
                             <img class="productimg" src="../img/xiaominote12.png" alt="Xiaomi note 12">
                         </figure>
@@ -267,7 +270,7 @@
                         </div>
                     </div>
 
-                    <div id="products-card" class="col-3 ">
+                    <div id="products-card" class="col-3 "  data-aos="fade-up" >
                         <figure>
                             <img class="productimg" src="../img/xiaominote10pro.png" alt="Xiaomi Note 10 Pro">
                         </figure>
@@ -284,7 +287,7 @@
                             <button class="buy">Comprar</button>
                         </div>
                     </div>
-                    <div id="products-card" class="col-3">
+                    <div id="products-card" class="col-3" data-aos="fade-up" >
                         <figure>
                             <a href=""><img class="productimg" src="../img/xiaominote11s6.png"
                                     alt="Xiaomi note 11s"></a>
@@ -305,7 +308,7 @@
 
                 <!--Pagination-->
 
-                <div id="pagination" class="row pb-4 pt-4 m-0">
+                <div id="pagination" class="row pb-4 pt-4 m-0"  data-aos="fade-up">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
                             <li class="page-item disabled">
@@ -330,8 +333,7 @@
 
     <footer class="conteiner" id="footer">
         <div class="social-networks">
-            <a class="logo-face" href="https://www.instagram.com/cellshop.tucuman/" target="_blank"><img
-                    class="instagram" src="../img/instagram.png" alt="logo instagram">
+            <a class="logo-insta" href="https://www.instagram.com/cellshop.tucuman/" target="_blank"><i class="fa-brands fa-instagram"></i>
             </a>
             <a class="logo-insta" href="https://www.facebook.com/tucel.celulareslibres?mibextid=ZbWKwL" target="_blank">
                 <i class="fa-brands fa-facebook"></i></i>
@@ -339,7 +341,7 @@
         </div>
 
         <div class="footer-logo">
-            <a class="footer-img" href="../index.html"><img class="logo" src="../img/CellShoplogo.png"
+            <a class="footer-img" href="../index.html"><img class="logo" src="../img/logo-cellshop.png"
                     alt="logo cellshop"></a>
         </div>
 
@@ -354,6 +356,11 @@
         </div>
     </footer>
 
+    <!--animacion-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!--boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
