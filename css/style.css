@@ -102,14 +102,14 @@ header .shoppingcar .fa-cart-shopping {
   }
 }
 
-main #all-products .col-10 #products #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-b, .products #row-index #products-card .circule-peach, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-b {
+body .conteiner-carousel .conteiner-slider .card-body .circule-y, body .conteiner-carousel .conteiner-slider .card-body .circule-b, main #all-products .col-10 #products #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-b, .products #row-index #products-card .circule-peach, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-b {
   padding: 0.8rem;
   margin: 0 0.2rem;
   border: 1px solid grey;
   border-radius: 50%;
   box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
 }
-main #all-products .col-10 #products #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-b:hover, .products #row-index #products-card .circule-peach:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-b:hover {
+body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, main #all-products .col-10 #products #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-b:hover, .products #row-index #products-card .circule-peach:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-b:hover {
   box-shadow: 0.5px 0.5px 5px 2px black;
 }
 
@@ -399,7 +399,7 @@ main #all-products .col-10 #products #products-card .circule-peach:hover, main #
     font-size: 20px;
     border-radius: 0;
     border: none;
-    box-shadow: 1px 1px 4px 2px #F3E8FF;
+    box-shadow: none;
   }
 }
 @media screen and (max-width: 900px) {
@@ -505,14 +505,14 @@ main #all-products .col-10 #products #products-card .circule-peach:hover, main #
   }
 }
 
-main #all-products .col-10 #products #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-b, .products #row-index #products-card .circule-b, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-peach {
+body .conteiner-carousel .conteiner-slider .card-body .circule-y, body .conteiner-carousel .conteiner-slider .card-body .circule-b, main #all-products .col-10 #products #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-b, .products #row-index #products-card .circule-b, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-peach {
   padding: 0.8rem;
   margin: 0 0.2rem;
   border: 1px solid grey;
   border-radius: 50%;
   box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
 }
-main #all-products .col-10 #products #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-b:hover, .products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover {
+body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, main #all-products .col-10 #products #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-b:hover, .products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover {
   box-shadow: 0.5px 0.5px 5px 2px black;
 }
 
@@ -914,6 +914,17 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
   }
 }
 
+body .conteiner-carousel .conteiner-slider .card-body .circule-y, body .conteiner-carousel .conteiner-slider .card-body .circule-b, .products #row-index #products-card .circule-b, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-b, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-peach {
+  padding: 0.8rem;
+  margin: 0 0.2rem;
+  border: 1px solid grey;
+  border-radius: 50%;
+  box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
+}
+body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, .products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-b:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-peach:hover {
+  box-shadow: 0.5px 0.5px 5px 2px black;
+}
+
 body {
   background-color: #F5F5F5;
 }
@@ -926,6 +937,10 @@ body .conteiner .row {
 body .conteiner .row .col .tittles-section {
   font-size: 1.8rem;
 }
+body .conteiner .row .col .tittles-section .fa-chevron-right {
+  font-size: 18px;
+  padding: 0 0.5rem;
+}
 body .conteiner .row .col .tittles-section a {
   color: black;
   text-decoration: none;
@@ -933,168 +948,303 @@ body .conteiner .row .col .tittles-section a {
 body .conteiner .row .col .tittles-section a:hover {
   color: #D2001A;
 }
-body .conteiner-slider {
+body .conteiner-carousel {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0 1rem 0;
+  /*mobile only*/
+}
+@media screen and (max-width: 576px) {
+  body .conteiner-carousel {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body .conteiner-carousel #carouselExampleFade {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  body .conteiner-carousel #carouselExampleFade {
+    display: block;
+  }
+}
+body .conteiner-carousel #carouselExampleFade .carousel-inner {
+  background-color: #fff;
+  border-top: 1px solid rgb(196, 196, 196);
+}
+body .conteiner-carousel #carouselExampleFade .carousel-inner .carousel-item {
+  height: 27rem;
+  width: 100%;
+}
+body .conteiner-carousel #carouselExampleFade .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body .conteiner-carousel #carouselExampleFade .carousel-control-prev span {
+  background-color: #aaadaf;
+}
+body .conteiner-carousel #carouselExampleFade .carousel-control-next span {
+  background-color: #aaadaf;
+}
+body .conteiner-carousel .conteiner-slider {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 10rem;
-  margin-top: 3rem;
+  width: 65rem;
+  margin: 0;
   padding: 1rem;
-  border: 1px solid grey;
+  border: 1px solid rgb(196, 196, 196);
+  box-shadow: 1px 1px 4px 2px #aaadaf;
   border-radius: 10px;
   background-color: #fff;
 }
-body .conteiner-slider .slider-body {
+@media screen and (max-width: 991px) {
+  body .conteiner-carousel .conteiner-slider {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(196, 196, 196);
+  }
+}
+body .conteiner-carousel .conteiner-slider .slider-body {
   display: flex;
   justify-content: center;
 }
-body .conteiner-slider .slider-body .sliders {
+@media screen and (max-width: 576px) {
+  body .conteiner-carousel .conteiner-slider .slider-body {
+    display: none;
+  }
+}
+body .conteiner-carousel .conteiner-slider .slider-body .sliders {
   overflow: hidden;
-  width: 60vmin;
-  height: 60vmin;
+  width: 20rem;
+  height: 25rem;
   padding: 0;
   margin: 1rem 0;
 }
-body .conteiner-slider .slider-body .sliders li {
+body .conteiner-carousel .conteiner-slider .slider-body .sliders li {
   position: absolute;
   z-index: 1;
   list-style: none;
-  width: 60vmin;
-  height: 60vmin;
+  width: 20rem;
+  height: 25rem;
 }
-body .conteiner-slider .slider-body .sliders li:target {
+body .conteiner-carousel .conteiner-slider .slider-body .sliders li:target {
   z-index: 3;
   animation: slide 1s 1;
 }
-body .conteiner-slider .slider-body .sliders li:not(:target) {
+body .conteiner-carousel .conteiner-slider .slider-body .sliders li:not(:target) {
   animation: hidden 1s 1;
 }
-@keyframes slide {
-  100% {
-    transform: translatey(0);
-  }
-}
-@keyframes hidden {
-  0% {
-    z-index: 2;
-  }
-  100% {
-    z-index: 2;
-  }
-}
-body .conteiner-slider .slider-body .sliders li img {
+body .conteiner-carousel .conteiner-slider .slider-body .sliders li img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-body .conteiner-slider .slider-body .thumnails {
+body .conteiner-carousel .conteiner-slider .slider-body .thumnails {
   display: flex;
   flex-direction: column;
   line-height: 0;
   padding: 1rem;
   margin: 0;
 }
-body .conteiner-slider .slider-body .thumnails li {
+body .conteiner-carousel .conteiner-slider .slider-body .thumnails li {
   flex: auto;
   list-style: none;
 }
-body .conteiner-slider .slider-body .thumnails li a {
+body .conteiner-carousel .conteiner-slider .slider-body .thumnails li a {
   display: block;
   text-decoration: none;
 }
-body .conteiner-slider .slider-body .thumnails li a img {
-  width: 20vmin;
-  height: 10vmin;
+body .conteiner-carousel .conteiner-slider .slider-body .thumnails li a img {
+  width: 8rem;
+  height: 4rem;
   object-fit: contain;
 }
-body .conteiner-slider .card-body {
-  border-left: 1px solid grey;
+body .conteiner-carousel .conteiner-slider .card-body {
+  border-left: 1px solid rgb(196, 196, 196);
   padding-left: 1rem;
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
 }
-body .conteiner-slider .card-body .card-title {
+@media screen and (max-width: 991px) {
+  body .conteiner-carousel .conteiner-slider .card-body {
+    border-left: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  body .conteiner-carousel .conteiner-slider .card-body {
+    padding: 0;
+  }
+}
+body .conteiner-carousel .conteiner-slider .card-body .card-title {
   font-size: 1.8rem;
   margin: auto;
+  margin-bottom: 1rem;
 }
-body .conteiner-slider .card-body .card-ram {
+body .conteiner-carousel .conteiner-slider .card-body .card-ram {
   font-size: 1.56rem;
 }
-body .conteiner-slider .card-body .card-price {
+body .conteiner-carousel .conteiner-slider .card-body .card-price {
   font-size: 1.8rem;
   color: #D2001A;
 }
-body .conteiner-slider .card-body .card-method {
+body .conteiner-carousel .conteiner-slider .card-body .circule-b {
+  background-color: #252525;
+}
+body .conteiner-carousel .conteiner-slider .card-body .circule-y {
+  background-color: #F5EA5A;
+}
+body .conteiner-carousel .conteiner-slider .card-body .card-method {
   font-size: 1.25rem;
   cursor: pointer;
   border: 1px solid rgb(196, 196, 196);
   border-radius: 5px;
   padding: 0.5rem 0.3rem;
   margin: 0;
+  margin-top: 2rem;
 }
-body .conteiner-slider .card-body .card-method:hover {
+body .conteiner-carousel .conteiner-slider .card-body .card-method:hover {
   background-color: #D2001A;
   color: #fff;
   border-color: #D2001A;
 }
-body .conteiner-slider .card-body .card-retiro {
+body .conteiner-carousel .conteiner-slider .card-body .card-method img {
+  padding-right: 0.5rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .card-method .fa-chevron-right {
+  font: 18px;
+  padding-left: 17.3rem;
+}
+@media screen and (max-width: 576px) {
+  body .conteiner-carousel .conteiner-slider .card-body .card-method .fa-chevron-right {
+    padding-left: 7rem;
+  }
+}
+body .conteiner-carousel .conteiner-slider .card-body .card-retiro {
   font-size: 1.25rem;
   cursor: pointer;
   border: 1px solid rgb(196, 196, 196);
   border-radius: 5px;
   padding: 0.5rem 0.3rem;
+  margin-top: 1rem;
 }
-body .conteiner-slider .card-body .card-retiro:hover {
+body .conteiner-carousel .conteiner-slider .card-body .card-retiro:hover {
   background-color: #D2001A;
   color: #fff;
   border-color: #D2001A;
 }
-body .specification {
+body .conteiner-carousel .conteiner-slider .card-body .card-retiro img {
+  padding-right: 0.5rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .card-retiro .fa-chevron-right {
+  font: 18px;
+  padding-left: 16.8rem;
+}
+@media screen and (max-width: 576px) {
+  body .conteiner-carousel .conteiner-slider .card-body .card-retiro .fa-chevron-right {
+    padding-left: 7rem;
+  }
+}
+body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy {
+  font-size: 1.25rem;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  padding: 0.5rem 0.3rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy:hover {
+  background-color: #D2001A;
+  color: #fff;
+  border-color: #D2001A;
+}
+body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy img {
+  padding-right: 0.5rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy .fa-chevron-right {
+  font: 18px;
+  padding-left: 17rem;
+}
+@media screen and (max-width: 576px) {
+  body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy .fa-chevron-right {
+    padding-left: 7rem;
+  }
+}
+
+.specification {
   width: 100%;
 }
-body .specification .specification-row {
+.specification .specification-row {
   width: 100%;
   margin: 0;
 }
-body .specification .specification-row .specification-name {
+.specification .specification-row .specification-name {
   display: flex;
   justify-content: center;
   padding: 3rem 0;
   font-size: 1.56rem;
 }
-body .specification .specification-row .specification-name .specification-tittle {
+.specification .specification-row .specification-name .specification-tittle {
   border: 1px solid grey;
   border-radius: 0.6rem;
   padding: 1rem 2rem;
 }
-body .conteiner-similar {
+
+.tabla {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.tabla .table {
+  background-color: #fff;
+}
+@media screen and (max-width: 991px) {
+  .tabla .table {
+    margin: 0;
+  }
+}
+.tabla .table tbody {
+  border: 1px solid grey;
+  box-shadow: 1px 1px 4px 2px #aaadaf;
+}
+.tabla .table tbody tr {
+  font-size: 18px;
+  border-bottom: 1px solid #aaadaf;
+}
+.tabla .table tbody tr .border-end {
+  font-weight: bold;
+  background-color: #D8D8D8;
+}
+
+.conteiner-similar {
   background-color: #F5F5F5;
   width: 100%;
   padding: 0;
 }
-body .conteiner-similar .similar {
+.conteiner-similar .similar {
   display: flex;
   justify-content: center;
   font-size: 1.56rem;
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
-body .conteiner-similar .similar .similar-span {
+.conteiner-similar .similar .similar-span {
   border: 1px solid grey;
   border-radius: 0.6rem;
   padding: 1rem 2rem;
 }
-body .conteiner-similar .similar .similar-span p {
+.conteiner-similar .similar .similar-span p {
   margin: 0;
 }
-body .conteiner-similar .conteiner-product-similar {
+.conteiner-similar .conteiner-product-similar {
   padding: 4rem 1.5rem;
   justify-content: center;
   gap: 4rem;
   margin: 0;
   width: 100%;
 }
-body .conteiner-similar .conteiner-product-similar #similar-products {
+.conteiner-similar .conteiner-product-similar #similar-products {
   display: grid;
   justify-content: center;
   background-color: white;
@@ -1102,34 +1252,34 @@ body .conteiner-similar .conteiner-product-similar #similar-products {
   box-shadow: 1px 1px 4px 2px #aaadaf;
   transition: all 400ms ease;
 }
-body .conteiner-similar .conteiner-product-similar #similar-products:hover {
+.conteiner-similar .conteiner-product-similar #similar-products:hover {
   box-shadow: 4px 4px 5px 4px #aaadaf;
   transform: translateY(-3px);
 }
-body .conteiner-similar .conteiner-product-similar #similar-products figure {
+.conteiner-similar .conteiner-product-similar #similar-products figure {
   max-height: 15.4rem;
   max-width: 15rem;
 }
-body .conteiner-similar .conteiner-product-similar #similar-products figure .productimg {
+.conteiner-similar .conteiner-product-similar #similar-products figure .productimg {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-body .conteiner-similar .conteiner-product-similar #similar-products .name-similar {
+.conteiner-similar .conteiner-product-similar #similar-products .name-similar {
   font-size: 1.25rem;
   padding: 1rem 0;
   display: flex;
   justify-content: center;
 }
 
-.products #row-index #products-card .circule-b, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-b, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-peach {
+.products #row-index #products-card .circule-b, .products #row-index #products-card .circule-p, .products #row-index #products-card .circule-y, .products #row-index #products-card .circule-g, .products #row-index #products-card .circule-c, .products #row-index #products-card .circule-grey, .products #row-index #products-card .circule-blue, .products #row-index #products-card .circule-s, .products #row-index #products-card .circule-sb, .products #row-index #products-card .circule-w, .products #row-index #products-card .circule-peach, main #all-products .col-10 #products #products-card .circule-b, main #all-products .col-10 #products #products-card .circule-p, main #all-products .col-10 #products #products-card .circule-y, main #all-products .col-10 #products #products-card .circule-g, main #all-products .col-10 #products #products-card .circule-c, main #all-products .col-10 #products #products-card .circule-grey, main #all-products .col-10 #products #products-card .circule-blue, main #all-products .col-10 #products #products-card .circule-s, main #all-products .col-10 #products #products-card .circule-sb, main #all-products .col-10 #products #products-card .circule-w, main #all-products .col-10 #products #products-card .circule-peach, body .conteiner-carousel .conteiner-slider .card-body .circule-b, body .conteiner-carousel .conteiner-slider .card-body .circule-y {
   padding: 0.8rem;
   margin: 0 0.2rem;
   border: 1px solid grey;
   border-radius: 50%;
   box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
 }
-.products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-b:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-peach:hover {
+.products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-b:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-peach:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover {
   box-shadow: 0.5px 0.5px 5px 2px black;
 }
 

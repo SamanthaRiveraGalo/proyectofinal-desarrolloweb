@@ -26,6 +26,8 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--animacion-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -80,40 +82,86 @@
 
     </header>
 
+    <!--productos-->
+
     <section class="conteiner">
         <div class="row">
             <div class="col ">
-                <h1 class="tittles-section"><a href="xiaomi.html">Xiaomi></a> Xiaomi X5Pro</h1>
+                <h1 class="tittles-section"><a href="xiaomi.html">Xiaomi <i class="fa-solid fa-chevron-right"></i></a>
+                    Xiaomi X5 Pro</h1>
             </div>
         </div>
     </section>
 
-    <section class="conteiner-slider">
-        <div class="conteiner slider-body">
-            <ul class="thumnails">
-                <li><a href="#slide1"><img src="../img/slider1.jpg" alt=""></a></li>
-                <li><a href="#slide2"><img src="../img/slider2.jpg" alt=""></a></li>
-                <li><a href="#slide3"><img src="../img/slider3.jpg" alt=""></a></li>
-                <li><a href="#slide4"><img src="../img/slider4.jpg" alt=""></a></li>
-            </ul>
-            <ul class="sliders">
-                <li id="slide1"><img src="../img/slider1.jpg" alt=""></li>
-                <li id="slide2"><img src="../img/slider2.jpg" alt=""></li>
-                <li id="slide3"><img src="../img/slider3.jpg" alt=""></li>
-                <li id="slide4"><img src="../img/slider4.jpg" alt=""></li>
-            </ul>
-           
+    <!--carousel del producto-->
+
+    <section class="conteiner-carousel">
+
+        <!--carousel vs mobile-->
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/slider1.jpg" class="d-block w-100" alt="imagen de xiaomi x5 pro">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/slider2.jpg" class="d-block w-100" alt="imagen de xiaomi x5 pro">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/slider3.jpg" class="d-block w-100" alt="imagen de xiaomi x5 pro">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/slider4.jpg" class="d-block w-100" alt="imagen de xiaomi x5 pro">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="card-body">
-            <h2 class="card-title">Xiaomi X5PRO</h2>
-            <p class="card-ram">12GB/256GB</p>
-            <p class="card-price">$145.000</p>
-            <p class="card-method"><img src="../assets/iconpagos.svg" alt=""> Metodos de pago</p>
-            <p class="card-retiro"><img src="../assets/icontiempoentrega.svg" alt=""> Retiro de sucursal</p>
+
+        <!--carousel vs destok-->
+
+        <div class="conteiner-slider">
+            <div class="conteiner slider-body">
+                <ul class="thumnails">
+                    <li><a href="#slide1"><img src="../img/slider1.jpg" alt=""></a></li>
+                    <li><a href="#slide2"><img src="../img/slider2.jpg" alt=""></a></li>
+                    <li><a href="#slide3"><img src="../img/slider3.jpg" alt=""></a></li>
+                    <li><a href="#slide4"><img src="../img/slider4.jpg" alt=""></a></li>
+                </ul>
+                <ul class="sliders">
+                    <li id="slide1"><img src="../img/slider1.jpg" alt=""></li>
+                    <li id="slide2"><img src="../img/slider2.jpg" alt=""></li>
+                    <li id="slide3"><img src="../img/slider3.jpg" alt=""></li>
+                    <li id="slide4"><img src="../img/slider4.jpg" alt=""></li>
+                </ul>
+
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Xiaomi X5 PRO</h2>
+                <p class="card-ram">12GB/256GB</p>
+                <p class="card-price">$145.000</p>
+                <button class="circule-b"></button>
+                <button class="circule-y"></button>
+                <p class="card-method"><img src="../assets/iconpagos.svg" alt="icono de metodo de pago"> Metodos de pago
+                    <i class="fa-solid fa-chevron-right"></i>
+                </p>
+                <p class="card-retiro"><img src="../assets/icontiempoentrega.svg" alt="icono de retiro de producto">
+                    Retiro de sucursal <i class="fa-solid fa-chevron-right"></i></p>
+                <p class="shopping-car-buy"><img src="../assets/iconcomprar.svg" alt="imagen de carrito"> Agregar al
+                    carrito <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
         </div>
     </section>
 
-    <!--slider version mobile-->
+    <!--Especificaciones-->
 
 
     <section class="conteiner specification">
@@ -124,63 +172,57 @@
         </div>
     </section>
 
+    <!--Tabla de especificaciones-->
+
     <section class="conteiner tabla">
-        <table class="table table-striped">
+        <table class="table w-75" data-aos="fade-up">
             <tbody>
                 <tr>
-                    
                     <td class="border-end ps-4">Pantalla</td>
                     <td class="ps-4">6.67", 1080 x 2400 pixels</td>
                 </tr>
                 <tr>
-                  
                     <td class="border-end ps-4">Procesador</td>
                     <td class="ps-4">Snapdragon 778G 2.4GHz</td>
 
                 </tr>
                 <tr>
-                   
                     <td class="border-end ps-4">RAM</td>
                     <td class="ps-4">6GB/8GB</td>
                 </tr>
                 <tr>
-                    
                     <td class="border-end ps-4">Almacenamiento</td>
                     <td class="ps-4">128GB/256GB</td>
                 </tr>
                 <tr>
-                   
                     <td class="border-end ps-4">Expancion</td>
                     <td class="ps-4">6GB/8GB</td>
                 </tr>
                 <tr>
-                    
                     <td class="border-end ps-4">Camara</td>
                     <td class="ps-4">Triple, 108MP+8MP+2MP</td>
                 </tr>
                 <tr>
-                    
                     <td class="border-end ps-4">Bateria</td>
                     <td class="ps-4">5000 mAh</td>
                 </tr>
                 <tr>
-                    
                     <td class="border-end ps-4">Android</td>
                     <td class="ps-4">Android 13</td>
                 </tr>
                 <tr>
-                   
                     <td class="border-end ps-4">Perfil</td>
                     <td class="ps-4">7.9 mm</td>
                 </tr>
                 <tr>
-                    
                     <td class="border-end ps-4">Peso</td>
-                    <td class="ps-4" >181 gr</td>
+                    <td class="ps-4">181 gr</td>
                 </tr>
             </tbody>
         </table>
     </section>
+
+    <!--Telefonos similares-->
 
     <section class="conteiner conteiner-similar">
         <div class="similar">
@@ -190,13 +232,13 @@
         </div>
 
         <div class="row conteiner-product-similar">
-            <div class="col-lg-3 col-md-6 col-sm-6" id="similar-products">
+            <div class="col-lg-3 col-md-6 col-sm-6" id="similar-products" data-aos="fade-up">
                 <figure>
                     <a href=""><img class="productimg" src="../img/samsungs23ultra.png" alt="Samsung S23 ultra"></a>
                 </figure>
                 <p class="name-similar">Samsung S23 ultra</p>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6" id="similar-products">
+            <div class="col-lg-3 col-md-6 col-sm-6" id="similar-products" data-aos="fade-up">
                 <figure>
                     <a href=""><img class="productimg" src="../img/motorolaedge30neo.png" alt="Motorola Edge 30"></a>
                 </figure>
@@ -210,7 +252,8 @@
 
     <footer class="conteiner" id="footer">
         <div class="social-networks">
-            <a class="logo-insta" href="https://www.instagram.com/cellshop.tucuman/" target="_blank"><i class="fa-brands fa-instagram"></i>
+            <a class="logo-insta" href="https://www.instagram.com/cellshop.tucuman/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i>
             </a>
             <a class="logo-insta" href="https://www.facebook.com/tucel.celulareslibres?mibextid=ZbWKwL" target="_blank">
                 <i class="fa-brands fa-facebook"></i></i>
@@ -232,7 +275,11 @@
             <p class="phone">03865-15310369</p>
         </div>
     </footer>
-
+    <!--animacion-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!--boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

@@ -1,3 +1,5 @@
+@import '../base/extends';
+
 body {
     background-color: #F5F5F5;
 
@@ -12,6 +14,11 @@ body {
                 .tittles-section {
                     font-size: 1.8rem;
 
+                    .fa-chevron-right {
+                        font-size: 18px;
+                        padding: 0 0.5rem;
+                    }
+
                     a {
                         color: black;
                         text-decoration: none;
@@ -25,228 +32,377 @@ body {
         }
     }
 
-    .conteiner-slider {
+    .conteiner-carousel {
         display: flex;
-        flex-direction: row;
         justify-content: center;
-        margin: 0 10rem;
-        margin-top: 3rem;
-        padding: 1rem;
-        border: 1px solid grey;
-        border-radius: 10px;
-        background-color: #fff;
+        padding: 3rem 0 1rem 0;
 
-        .slider-body {
+        @media screen and (max-width:576px) {
             display: flex;
+            flex-direction: column;
+        }
+
+        /*mobile only*/
+
+        #carouselExampleFade {
+            display: none;
+
+            @media screen and (max-width:576px) {
+                display: block;
+            }
+
+            .carousel-inner {
+                background-color: #fff;
+                border-top: 1px solid rgb(196, 196, 196);
+                .carousel-item {
+                    height: 27rem;
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+            .carousel-control-prev{
+                span{
+                    background-color: #aaadaf;
+                }
+            }
+            .carousel-control-next{
+                span{
+                    background-color: #aaadaf;
+                }
+            }
+        }
+
+        .conteiner-slider {
+            display: flex;
+            flex-direction: row;
             justify-content: center;
+            width: 65rem;
+            margin: 0;
+            padding: 1rem;
+            border: 1px solid rgb(196, 196, 196);
+            box-shadow: 1px 1px 4px 2px #aaadaf;
+            border-radius: 10px;
+            background-color: #fff;
 
-            .sliders {
-                overflow: hidden;
-                width: 60vmin;
-                height: 60vmin;
-                padding: 0;
-                margin: 1rem 0;
+            @media screen and (max-width:991px) {
+                display: flex;
+                flex-direction: column;
+                box-shadow: none;
+                border-radius: 0;
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid rgb(196, 196, 196);
+            }
 
-                li {
-                    position: absolute;
-                    z-index: 1;
-                    list-style: none;
-                    width: 60vmin;
-                    height: 60vmin;
+            .slider-body {
+                display: flex;
+                justify-content: center;
 
-                    &:target {
-                        z-index: 3;
-                        animation: slide 1s 1;
-                    }
+                @media screen and (max-width:576px) {
+                    display: none;
+                }
 
-                    &:not(:target) {
-                        animation: hidden 1s 1;
-                    }
+                .sliders {
+                    overflow: hidden;
+                    width: 20rem;
+                    height: 25rem;
+                    padding: 0;
+                    margin: 1rem 0;
 
-                    @keyframes slide {
+                    li {
+                        position: absolute;
+                        z-index: 1;
+                        list-style: none;
+                        width: 20rem;
+                        height: 25rem;
 
-                        100% {
-                            transform: translatey(0);
+                        &:target {
+                            z-index: 3;
+                            animation: slide 1s 1;
+                        }
+
+                        &:not(:target) {
+                            animation: hidden 1s 1;
+                        }
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
                         }
                     }
+                }
 
-                    @keyframes hidden {
-                        0% {
-                            z-index: 2;
+                .thumnails {
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 0;
+                    padding: 1rem;
+                    margin: 0;
+
+                    li {
+                        flex: auto;
+                        list-style: none;
+
+                        a {
+                            display: block;
+                            text-decoration: none;
+
+                            img {
+                                width: 8rem;
+                                height: 4rem;
+                                object-fit: contain;
+                            }
                         }
 
-                        100% {
-                            z-index: 2;
-                        }
+                    }
+                }
+            }
+
+            .card-body {
+                border-left: 1px solid rgb(196, 196, 196);
+                padding-left: 1rem;
+                gap: 2rem;
+
+                @media screen and (max-width:991px) {
+                    border-left: none;
+                }
+                @media screen and (max-width:576px) {
+                    padding: 0;
+                }
+
+
+                .card-title {
+                    font-size: 1.8rem;
+                    margin: auto;
+                    margin-bottom: 1rem;
+
+                }
+
+                .card-ram {
+                    font-size: 1.56rem;
+                }
+
+                .card-price {
+                    font-size: 1.8rem;
+                    color: #D2001A;
+                }
+
+                .circule-b {
+                    @extend %button-products;
+                    background-color: #252525;
+                }
+
+                .circule-y {
+                    @extend %button-products;
+                    background-color: #F5EA5A;
+                }
+
+                .card-method {
+                    font-size: 1.25rem;
+                    cursor: pointer;
+                    border: 1px solid rgb(196, 196, 196);
+                    border-radius: 5px;
+                    padding: 0.5rem 0.3rem;
+                    margin: 0;
+                    margin-top: 2rem;
+
+                    &:hover {
+                        background-color: #D2001A;
+                        color: #fff;
+                        border-color: #D2001A;
                     }
 
                     img {
-                        height: 100%;
-                        width: 100%;
-                        object-fit: cover;
+                        padding-right: 0.5rem;
+                    }
+
+                    .fa-chevron-right {
+                        font: 18px;
+                        padding-left: 17.3rem;
+                        @media screen and (max-width:576px) {
+                            padding-left: 7rem;
+                        }
+        
                     }
                 }
-            }
 
-            .thumnails {
-                display: flex;
-                flex-direction: column;
-                line-height: 0;
-                padding: 1rem;
-                margin: 0;
+                .card-retiro {
+                    font-size: 1.25rem;
+                    cursor: pointer;
+                    border: 1px solid rgb(196, 196, 196);
+                    border-radius: 5px;
+                    padding: 0.5rem 0.3rem;
+                    margin-top: 1rem;
 
-                li {
-                    flex: auto;
-                    list-style: none;
+                    &:hover {
+                        background-color: #D2001A;
+                        color: #fff;
+                        border-color: #D2001A;
+                    }
 
-                    a {
-                        display: block;
-                        text-decoration: none;
+                    img {
+                        padding-right: 0.5rem;
+                    }
 
-
-                        img {
-                            width: 20vmin;
-                            height: 10vmin;
-                            object-fit: contain;
+                    .fa-chevron-right {
+                        font: 18px;
+                        padding-left: 16.8rem;
+                        @media screen and (max-width:576px) {
+                            padding-left: 7rem;
                         }
                     }
-
                 }
-            }
-        }
 
-        .card-body {
-            border-left: 1px solid grey;
-            padding-left: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
+                .shopping-car-buy {
+                    font-size: 1.25rem;
+                    border: 1px solid rgb(196, 196, 196);
+                    border-radius: 5px;
+                    padding: 0.5rem 0.3rem;
 
-            .card-title {
-                font-size: 1.8rem;
-                margin: auto;
-            }
+                    &:hover {
+                        background-color: #D2001A;
+                        color: #fff;
+                        border-color: #D2001A;
+                    }
 
-            .card-ram {
-                font-size: 1.56rem;
-            }
+                    img {
+                        padding-right: 0.5rem;
+                    }
 
-            .card-price {
-                font-size: 1.8rem;
-                color: #D2001A;
-            }
-
-            .card-method {
-                font-size: 1.25rem;
-                cursor: pointer;
-                border: 1px solid rgb(196, 196, 196);
-                border-radius: 5px;
-                padding: 0.5rem 0.3rem;
-                margin: 0;
-                &:hover{
-                    background-color: #D2001A;
-                    color: #fff;
-                    border-color: #D2001A;
+                    .fa-chevron-right {
+                        font: 18px;
+                        padding-left: 17rem;
+                        @media screen and (max-width:576px) {
+                            padding-left: 7rem;
+                        }
+                    }
                 }
             }
 
-            .card-retiro {
-                font-size: 1.25rem;
-                cursor: pointer;
-                border: 1px solid rgb(196, 196, 196);
-                border-radius: 5px;
-                padding: 0.5rem 0.3rem;
-                &:hover{
-                    background-color: #D2001A;
-                    color: #fff;
-                    border-color: #D2001A;
-                }
-            }
         }
     }
-    .specification {
+}
+
+.specification {
+    width: 100%;
+
+    .specification-row {
         width: 100%;
+        margin: 0;
 
-        .specification-row {
-            width: 100%;
-            margin: 0;
-
-            .specification-name {
-                display: flex;
-                justify-content: center;
-                padding: 3rem 0;
-                font-size: 1.56rem;
-
-                .specification-tittle {
-                    border: 1px solid grey;
-                    border-radius: 0.6rem;
-                    padding: 1rem 2rem;
-                  
-                }
-            }
-        }
-
-    }
-
-    .conteiner-similar {
-        background-color: #F5F5F5;
-        width: 100%;
-        padding: 0;
-
-        .similar {
+        .specification-name {
             display: flex;
             justify-content: center;
+            padding: 3rem 0;
             font-size: 1.56rem;
-            padding-top: 3rem;
 
-            .similar-span {
+            .specification-tittle {
                 border: 1px solid grey;
                 border-radius: 0.6rem;
                 padding: 1rem 2rem;
-               p{
-                margin: 0;
-               }
-            }
 
+            }
+        }
+    }
+
+}
+
+.tabla {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+
+    .table {
+        background-color: #fff;
+
+        @media screen and (max-width:991px) {
+            margin: 0;
         }
 
-        .conteiner-product-similar {
-            padding: 4rem 1.5rem;
+        tbody {
+            border: 1px solid grey;
+            box-shadow: 1px 1px 4px 2px #aaadaf;
+
+            tr {
+                font-size: 18px;
+                border-bottom: 1px solid #aaadaf;
+
+                .border-end {
+                    font-weight: bold;
+                    background-color: #D8D8D8;
+                }
+
+            }
+        }
+    }
+}
+
+.conteiner-similar {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 0;
+
+
+    .similar {
+        display: flex;
+        justify-content: center;
+        font-size: 1.56rem;
+        padding: 3rem 0;
+
+        .similar-span {
+            border: 1px solid grey;
+            border-radius: 0.6rem;
+            padding: 1rem 2rem;
+
+            p {
+                margin: 0;
+            }
+        }
+
+    }
+
+    .conteiner-product-similar {
+        padding: 4rem 1.5rem;
+        justify-content: center;
+        gap: 4rem;
+        margin: 0;
+        width: 100%;
+
+        #similar-products {
+            display: grid;
             justify-content: center;
-            gap: 4rem;
-            margin: 0;
-            width: 100%;
+            background-color: white;
+            border-radius: 0.6rem;
+            box-shadow: 1px 1px 4px 2px #aaadaf;
+            transition: all 400ms ease;
 
-            #similar-products {
-                display: grid;
+            &:hover {
+                box-shadow: 4px 4px 5px 4px #aaadaf;
+                transform: translateY(-3px);
+            }
+
+            figure {
+                max-height: 15.4rem;
+                max-width: 15rem;
+
+                .productimg {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .name-similar {
+                font-size: 1.25rem;
+                padding: 1rem 0;
+                display: flex;
                 justify-content: center;
-                background-color: white;
-                border-radius: 0.6rem;
-                box-shadow: 1px 1px 4px 2px #aaadaf;
-                transition: all 400ms ease;
-
-                &:hover {
-                    box-shadow: 4px 4px 5px 4px #aaadaf;
-                    transform: translateY(-3px);
-                }
-
-                figure {
-                    max-height: 15.4rem;
-                    max-width: 15rem;
-
-                    .productimg {
-                        height: 100%;
-                        width: 100%;
-                        object-fit: cover;
-                    }
-                }
-
-                .name-similar {
-                    font-size: 1.25rem;
-                    padding: 1rem 0;
-                    display: flex;
-                    justify-content: center;
-                }
             }
         }
     }
