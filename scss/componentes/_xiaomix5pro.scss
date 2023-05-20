@@ -54,6 +54,7 @@ body {
             .carousel-inner {
                 background-color: #fff;
                 border-top: 1px solid rgb(196, 196, 196);
+
                 .carousel-item {
                     height: 27rem;
                     width: 100%;
@@ -65,13 +66,15 @@ body {
                     }
                 }
             }
-            .carousel-control-prev{
-                span{
+
+            .carousel-control-prev {
+                span {
                     background-color: #aaadaf;
                 }
             }
-            .carousel-control-next{
-                span{
+
+            .carousel-control-next {
+                span {
                     background-color: #aaadaf;
                 }
             }
@@ -172,6 +175,7 @@ body {
                 @media screen and (max-width:991px) {
                     border-left: none;
                 }
+
                 @media screen and (max-width:576px) {
                     padding: 0;
                 }
@@ -203,84 +207,101 @@ body {
                     background-color: #F5EA5A;
                 }
 
-                .card-method {
-                    font-size: 1.25rem;
+                .conteiner-method {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
                     cursor: pointer;
                     border: 1px solid rgb(196, 196, 196);
                     border-radius: 5px;
-                    padding: 0.5rem 0.3rem;
-                    margin: 0;
-                    margin-top: 2rem;
-
-                    &:hover {
-                        background-color: #D2001A;
-                        color: #fff;
-                        border-color: #D2001A;
-                    }
-
-                    img {
-                        padding-right: 0.5rem;
-                    }
-
-                    .fa-chevron-right {
-                        font: 18px;
-                        padding-left: 17.3rem;
-                        @media screen and (max-width:576px) {
-                            padding-left: 7rem;
-                        }
-        
-                    }
-                }
-
-                .card-retiro {
-                    font-size: 1.25rem;
-                    cursor: pointer;
-                    border: 1px solid rgb(196, 196, 196);
-                    border-radius: 5px;
-                    padding: 0.5rem 0.3rem;
                     margin-top: 1rem;
-
                     &:hover {
                         background-color: #D2001A;
                         color: #fff;
                         border-color: #D2001A;
                     }
 
-                    img {
-                        padding-right: 0.5rem;
+                    .card-method {
+                        font-size: 1.25rem;
+                        padding: 0.5rem 0;
+                        margin: 0;
+                        padding-left: 0.5rem;
+
+                        img {
+                            padding-right: 0.5rem;
+                        }
+
                     }
 
                     .fa-chevron-right {
-                        font: 18px;
-                        padding-left: 16.8rem;
-                        @media screen and (max-width:576px) {
-                            padding-left: 7rem;
-                        }
+                        font-size: 20px;
+                        padding-right: 0.5rem;
                     }
                 }
 
-                .shopping-car-buy {
-                    font-size: 1.25rem;
+                .conteiner-retiro {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
                     border: 1px solid rgb(196, 196, 196);
                     border-radius: 5px;
-                    padding: 0.5rem 0.3rem;
-
+                    margin-top: 1rem;
                     &:hover {
                         background-color: #D2001A;
                         color: #fff;
                         border-color: #D2001A;
                     }
 
-                    img {
-                        padding-right: 0.5rem;
+                    .card-retiro {
+                        font-size: 1.25rem;
+                        padding: 0.5rem 0;
+                        margin: 0;
+                        padding-left: 0.5rem;
+
+                        img {
+                            padding-right: 0.5rem;
+                        }
+
                     }
 
                     .fa-chevron-right {
-                        font: 18px;
-                        padding-left: 17rem;
-                        @media screen and (max-width:576px) {
-                            padding-left: 7rem;
+                        font-size: 20px;
+                        padding-right: 0.5rem;
+                    }
+                }
+
+                .conteiner-shopping {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+                    border: 1px solid rgb(196, 196, 196);
+                    border-radius: 5px;
+                    margin-top: 1rem;
+                    &:hover {
+                        background-color: #D2001A;
+                        color: #fff;
+                        border-color: #D2001A;
+                    }
+
+                    .shopping-car-buy {
+                        font-size: 1.25rem;
+                        padding: 0.5rem 0;
+                        margin: 0;
+                        padding-left: 0.5rem;
+
+                        img {
+                            padding-right: 0.5rem;
                         }
+                    }
+
+                    .fa-chevron-right {
+                        font-size: 20px;
+                        padding-right: 0.5rem;
                     }
                 }
             }

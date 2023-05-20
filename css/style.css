@@ -110,7 +110,7 @@ body .conteiner-carousel .conteiner-slider .card-body .circule-y, body .conteine
   box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
 }
 body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, main #all-products .col-10 #products #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-b:hover, .products #row-index #products-card .circule-peach:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-b:hover {
-  box-shadow: 0.5px 0.5px 5px 2px black;
+  box-shadow: 0 0 2px 2px rgb(104, 104, 104);
 }
 
 .products {
@@ -200,7 +200,7 @@ body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover, body .co
   background-color: #FFD3B0;
 }
 .products #row-index #products-card .conteiner-button {
-  padding: 0.6rem 0;
+  padding: 1rem 0 0.6rem 0;
   display: flex;
   justify-content: center;
 }
@@ -513,7 +513,7 @@ body .conteiner-carousel .conteiner-slider .card-body .circule-y, body .conteine
   box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
 }
 body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, main #all-products .col-10 #products #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-b:hover, .products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover {
-  box-shadow: 0.5px 0.5px 5px 2px black;
+  box-shadow: 0 0 2px 2px rgb(104, 104, 104);
 }
 
 main {
@@ -614,7 +614,7 @@ main #all-products .col-10 #products #products-card .circule-peach {
   background-color: #FFD3B0;
 }
 main #all-products .col-10 #products #products-card .conteiner-button {
-  padding: 0.6rem 0;
+  padding: 1rem 0 0.6rem 0;
   display: flex;
   justify-content: center;
 }
@@ -644,11 +644,21 @@ main #all-products .col-10 #products #products-card .conteiner-button .buy:hover
   color: #fff;
   padding: 0 1.5rem;
 }
+@media screen and (max-width: 576px) {
+  .contact-body {
+    padding: 0 1rem;
+  }
+}
 .contact-body .conteiner-form {
   max-width: 73rem;
   margin-left: auto;
   margin-right: auto;
   padding: 3rem 1.5rem;
+}
+@media screen and (max-width: 576px) {
+  .contact-body .conteiner-form {
+    padding: 2rem 0;
+  }
 }
 .contact-body .conteiner-form .contact-wrapper {
   box-shadow: 0 0 20px 0 #aaadaf;
@@ -922,7 +932,7 @@ body .conteiner-carousel .conteiner-slider .card-body .circule-y, body .conteine
   box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
 }
 body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, .products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-b:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-peach:hover {
-  box-shadow: 0.5px 0.5px 5px 2px black;
+  box-shadow: 0 0 2px 2px rgb(104, 104, 104);
 }
 
 body {
@@ -1098,79 +1108,89 @@ body .conteiner-carousel .conteiner-slider .card-body .circule-b {
 body .conteiner-carousel .conteiner-slider .card-body .circule-y {
   background-color: #F5EA5A;
 }
-body .conteiner-carousel .conteiner-slider .card-body .card-method {
-  font-size: 1.25rem;
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-method {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   cursor: pointer;
   border: 1px solid rgb(196, 196, 196);
   border-radius: 5px;
-  padding: 0.5rem 0.3rem;
-  margin: 0;
-  margin-top: 2rem;
-}
-body .conteiner-carousel .conteiner-slider .card-body .card-method:hover {
-  background-color: #D2001A;
-  color: #fff;
-  border-color: #D2001A;
-}
-body .conteiner-carousel .conteiner-slider .card-body .card-method img {
-  padding-right: 0.5rem;
-}
-body .conteiner-carousel .conteiner-slider .card-body .card-method .fa-chevron-right {
-  font: 18px;
-  padding-left: 17.3rem;
-}
-@media screen and (max-width: 576px) {
-  body .conteiner-carousel .conteiner-slider .card-body .card-method .fa-chevron-right {
-    padding-left: 7rem;
-  }
-}
-body .conteiner-carousel .conteiner-slider .card-body .card-retiro {
-  font-size: 1.25rem;
-  cursor: pointer;
-  border: 1px solid rgb(196, 196, 196);
-  border-radius: 5px;
-  padding: 0.5rem 0.3rem;
   margin-top: 1rem;
 }
-body .conteiner-carousel .conteiner-slider .card-body .card-retiro:hover {
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-method:hover {
   background-color: #D2001A;
   color: #fff;
   border-color: #D2001A;
 }
-body .conteiner-carousel .conteiner-slider .card-body .card-retiro img {
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-method .card-method {
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-method .card-method img {
   padding-right: 0.5rem;
 }
-body .conteiner-carousel .conteiner-slider .card-body .card-retiro .fa-chevron-right {
-  font: 18px;
-  padding-left: 16.8rem;
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-method .fa-chevron-right {
+  font-size: 20px;
+  padding-right: 0.5rem;
 }
-@media screen and (max-width: 576px) {
-  body .conteiner-carousel .conteiner-slider .card-body .card-retiro .fa-chevron-right {
-    padding-left: 7rem;
-  }
-}
-body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy {
-  font-size: 1.25rem;
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-retiro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
   border: 1px solid rgb(196, 196, 196);
   border-radius: 5px;
-  padding: 0.5rem 0.3rem;
+  margin-top: 1rem;
 }
-body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy:hover {
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-retiro:hover {
   background-color: #D2001A;
   color: #fff;
   border-color: #D2001A;
 }
-body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy img {
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-retiro .card-retiro {
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-retiro .card-retiro img {
   padding-right: 0.5rem;
 }
-body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy .fa-chevron-right {
-  font: 18px;
-  padding-left: 17rem;
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-retiro .fa-chevron-right {
+  font-size: 20px;
+  padding-right: 0.5rem;
 }
-@media screen and (max-width: 576px) {
-  body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy .fa-chevron-right {
-    padding-left: 7rem;
-  }
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-shopping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-shopping:hover {
+  background-color: #D2001A;
+  color: #fff;
+  border-color: #D2001A;
+}
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-shopping .shopping-car-buy {
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-shopping .shopping-car-buy img {
+  padding-right: 0.5rem;
+}
+body .conteiner-carousel .conteiner-slider .card-body .conteiner-shopping .fa-chevron-right {
+  font-size: 20px;
+  padding-right: 0.5rem;
 }
 
 .specification {
@@ -1280,7 +1300,7 @@ body .conteiner-carousel .conteiner-slider .card-body .shopping-car-buy .fa-chev
   box-shadow: 0.5px 0.5px 5px 2px #D8D9CF;
 }
 .products #row-index #products-card .circule-b:hover, .products #row-index #products-card .circule-p:hover, .products #row-index #products-card .circule-y:hover, .products #row-index #products-card .circule-g:hover, .products #row-index #products-card .circule-c:hover, .products #row-index #products-card .circule-grey:hover, .products #row-index #products-card .circule-blue:hover, .products #row-index #products-card .circule-s:hover, .products #row-index #products-card .circule-sb:hover, .products #row-index #products-card .circule-w:hover, .products #row-index #products-card .circule-peach:hover, main #all-products .col-10 #products #products-card .circule-b:hover, main #all-products .col-10 #products #products-card .circule-p:hover, main #all-products .col-10 #products #products-card .circule-y:hover, main #all-products .col-10 #products #products-card .circule-g:hover, main #all-products .col-10 #products #products-card .circule-c:hover, main #all-products .col-10 #products #products-card .circule-grey:hover, main #all-products .col-10 #products #products-card .circule-blue:hover, main #all-products .col-10 #products #products-card .circule-s:hover, main #all-products .col-10 #products #products-card .circule-sb:hover, main #all-products .col-10 #products #products-card .circule-w:hover, main #all-products .col-10 #products #products-card .circule-peach:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-b:hover, body .conteiner-carousel .conteiner-slider .card-body .circule-y:hover {
-  box-shadow: 0.5px 0.5px 5px 2px black;
+  box-shadow: 0 0 2px 2px rgb(104, 104, 104);
 }
 
 /*# sourceMappingURL=style.css.map */
