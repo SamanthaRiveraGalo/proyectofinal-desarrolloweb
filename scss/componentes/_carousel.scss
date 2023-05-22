@@ -1,17 +1,11 @@
 .carousel-inner {
     max-height: 33rem;
     max-height: 33.5rem;
+    width: 100%;
 
     .img-fluid {
         max-height: 33rem;
         object-fit: cover;
+        margin: 0;
     }
-}
-
-.carousel-control-prev {
-    justify-content: start;
-}
-
-.carousel-control-next {
-    justify-content: end;
 }
