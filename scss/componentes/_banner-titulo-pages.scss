@@ -1,3 +1,5 @@
+@import '../base/mixins';
+
 .conteiner-banner-products {
     width: 100%;
 
@@ -18,7 +20,7 @@
         background-color: #F5F5F5;
         margin: 0 0 0 3.5rem;
         color: #D2001A;
-        @media screen and (max-width:900px) {
+        @include large {
             padding-left: 1rem;
             margin: 0;
         }
@@ -29,7 +31,7 @@
         padding: 1rem 0 2rem 2rem;
         font-size: 2rem;
         margin: 0 0 0 3.5rem;
-        @media screen and (max-width:900px) {
+        @include large {
             padding-left: 1rem;
             margin: 0;
         }

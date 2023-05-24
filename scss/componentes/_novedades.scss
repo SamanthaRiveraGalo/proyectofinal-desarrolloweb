@@ -1,3 +1,5 @@
+@import '../base/mixins';
+
 .conteiner-new {
     background-color: #f5f5f5;
     display: flex;
@@ -34,7 +36,7 @@
         box-shadow: 0 0 20px 0 #aaadaf;
         position: relative;
         translate: -8rem;
-       
+
         .new-text {
             padding: 1.5rem;
             width: 50%;
@@ -80,6 +82,7 @@
 
             .new-img {
                 width: 140%;
+
             }
         }
     }
@@ -87,44 +90,46 @@
     .new-left {
         position: relative;
         translate: 8rem;
+
         .new-image {
             width: 50%;
             height: auto;
             position: relative;
             overflow: hidden;
-
-            &::before {
-                transform: translateY(-50%) rotate(-20deg);
-                left: initial;
-                right: -6.1rem;
-            }
-
-            .new-img {
-                width: 140%;
-            }
         }
 
-        .new-text {
-            padding: 1.5rem;
-            width: 50%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: flex-start;
-            flex-direction: column;
+        &::before {
+            transform: translateY(-50%) rotate(-20deg);
+            left: initial;
+            right: -6.1rem;
+        }
 
-            .new-tittle {
-                margin: 0;
-                padding: 0.5rem 0;
-                font-size: 25px;
-                color: #fff;
-                font-weight: bold;
-            }
+        .new-img {
+            width: 140%;
 
-            .lorem {
-                line-height: 23px;
-                color: #fff;
-                font-size: 18px;
-            }
+        }
+    }
+
+    .new-text {
+        padding: 1.5rem;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .new-tittle {
+            margin: 0;
+            padding: 0.5rem 0;
+            font-size: 25px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .lorem {
+            line-height: 23px;
+            color: #fff;
+            font-size: 18px;
         }
     }
 
@@ -157,8 +162,10 @@
             }
 
         }
+
         .new-left {
             translate: none;
+
             .new-image {
                 &::before {
                     transform: translateX(-50%) rotate(-10%);
