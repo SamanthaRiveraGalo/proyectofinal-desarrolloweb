@@ -4,33 +4,33 @@
     background-color: #f5f5f5;
     color: #fff;
     padding: 0 1.5rem;
-    @include mobile{
+
+    @include mobile {
         padding: 0 1rem;
     }
-  
+
 
     .conteiner-form {
         max-width: 73rem;
         margin-left: auto;
         margin-right: auto;
         padding: 3rem 1.5rem;
-        @include mobile {padding: 2rem 0;}
-       
+
+        @include mobile {
+            padding: 2rem 0;
+        }
+
 
         .contact-wrapper {
             box-shadow: 0 0 20px 0 #aaadaf;
             display: grid;
             grid-template-columns: 2fr 1fr;
-            transition: all 400ms ease;
-            &:hover {
-                transform: translatey(-5px);
-            }
-            @include medium { display: grid;
+
+            @include medium {
+                display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: (1fr, 20rem);}
-
-          
-
+                grid-template-rows: (1fr, 20rem);
+            }
 
             .contact-wrapper>* {
                 padding-left: 1rem;
@@ -39,14 +39,20 @@
             .contact-form {
                 background-color: #222222;
                 padding: 1rem;
-                @include medium { display: grid;}
-              
+
+                @include medium {
+                    display: grid;
+                }
+
 
                 form {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
-                    @include medium { display: flex;
-                        flex-direction: column;}
+
+                    @include medium {
+                        display: flex;
+                        flex-direction: column;
+                    }
 
                     p {
                         margin: 0;
@@ -109,8 +115,10 @@
             .contact-info {
                 background: #454546;
                 padding: 1rem 0;
-               
-                @include medium {  grid-area: 2 / 1 / 3 / 2;}
+
+                @include medium {
+                    grid-area: 2 / 1 / 3 / 2;
+                }
 
                 h3 {
                     font-size: 25px;
