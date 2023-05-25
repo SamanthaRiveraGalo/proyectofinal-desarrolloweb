@@ -18,10 +18,11 @@
             padding: 2.5rem 0 3rem 0;
 
             .novedades-span {
-                border: 1px solid #181818;
+                border: 1px solid grey;
                 padding: 1rem 2rem;
-                color: #181818;
                 border-radius: 5px;
+                background-color: #fff;
+                box-shadow: 1px 1px 4px 2px #D8D8D8;
             }
 
         }
@@ -96,13 +97,14 @@
             height: auto;
             position: relative;
             overflow: hidden;
+
+            &::before {
+                transform: translateY(-50%) rotate(-20deg);
+                left: initial;
+                right: -6.1rem;
+            }
         }
 
-        &::before {
-            transform: translateY(-50%) rotate(-20deg);
-            left: initial;
-            right: -6.1rem;
-        }
 
         .new-img {
             width: 140%;
